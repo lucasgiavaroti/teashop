@@ -1,0 +1,12 @@
+ navbar #546A2A
+ navbar icons #FFFF6E
+
+ title #293413
+ paragraph #26310F
+ button #546A2A
+ button text 
+
+ middle div #F0F4EF
+ middle div text #435B15
+
+ section #CAD9AF
