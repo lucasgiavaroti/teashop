@@ -66,7 +66,7 @@ body {
   color: #26310f;
   font-size: 1.3rem;
 }
-.main-content .title .button {
+.button {
   background-color: #546a2a;
   font-family: "Poppins", sans-serif;
   color: #fff;
@@ -166,6 +166,7 @@ body {
   font-size: 2rem;
   color: #293413;
   list-style: inside;
+  font-weight: bold;
 }
 .countries .list-details {
   display: flex;
@@ -176,6 +177,67 @@ body {
   color: #26310f;
   font-size: 1.3rem;
   list-style: none;
+}
+
+/* get in touch section */
+.get-in-container{
+  padding: 0 2rem;
+}
+.get-in-touch {
+  /* background-color: red; */
+  height: 100vh;
+  /* padding: 2.5rem 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8rem;
+  border-top: 1px solid #546a2a;
+}
+.get-in-touch .image {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+}
+.get-in-touch .image img {
+  max-width: 300px;
+}
+.get-in-touch-text {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  font-family: "Playfair Display", serif;
+  padding: 1rem 0;
+}
+.first-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.first-text p {
+  font-size: 2rem;
+  text-align: center;
+}
+.first-text h3 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #546a2a;
+  border-bottom: 1px solid #546a2a;
+  padding-bottom: 1rem;
+}
+.button-get {
+  background-color: #546a2a;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  width: 10rem;
+  padding: 0.6rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
 }
 
 /* footer */
